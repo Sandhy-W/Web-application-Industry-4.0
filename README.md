@@ -16,12 +16,14 @@ Industry 4.0 uses parallax scrolling and bootstrap corousel slidings techniques.
 Dsiplaying the 6 websites that shows the responsive hover mouse which display more information once hovered. 
 as well as bootstrap sliding that provide more informations through sliders.
 
-![Screenshot 2023-05-15 235650](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/a6b53e40-aa56-4682-bce4-612c377e076d)
+![Screenshot 2023-05-15 235650](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/0925caf7-ce7c-45f5-8cfe-df7efa998838)
+
 
 * Companies and Organisations pages
 Introduces 6 companies and organisations which are IBM, Amazon, Google, Microsoft, CSIRO, and Department of Industry, Science, Energy and Science. This page also able to generate users feedback at the bottom of the page where the authorization will allow only the admin that able to edit or delete the posted feedback.
 
-![Screenshot 2023-05-16 000147](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/c12c0748-6e2f-4420-b7b0-7b1d71c1a0e7)
+=![Screenshot 2023-05-16 000147](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/4ebb67b7-00fc-4d37-9594-2d1f3089a48e)
+
 
 * Emerging Technologies Page
 On this page, there would be 24  topics that split into 6 main topic, which will be displayed in accoirdion style
@@ -44,11 +46,14 @@ will displayed more information about industry 4.0 and anable the users to keep 
 * Log in page
 In login page determine the type of users whos sign in  into the web based on the used email address.
 
-![image](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/9d415b77-5975-43bc-9fcd-288f7c5151cc)
+![image](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/6af7ae5d-9b94-4694-9f26-a2a10175d7bb)
 
 
 * Register page
 used to register new users.
+
+![image](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/3311f086-ee14-4f25-b209-0530134a707b)
+
 
 
 ![image](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/89248dcc-a57e-4e7e-9027-734f62e758e4)
