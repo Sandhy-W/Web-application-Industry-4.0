@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Industry 4.0.props" />
+</Project>

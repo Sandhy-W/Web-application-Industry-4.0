@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Contact & about";
+}
+<article>
+    <section id="bg-conab">
+        <h1 id="ind">Industry 4.0</h1>
+        <p id="intro">
+            Industry 4.0 is the modern method of enebling the connection on every devices<br />
+            to create a better mechanishm without human involvement. This advance will lead <br />
+            into a quality industrial in sector possible. To learn more about some  of the examples <br />
+            of these advances see the <a href="../Views/Home/Index.cshtml">Home page</a>
+            , <a href="../Views/Home/Conab.cshtml">Companies and Organisatios</a>,<br />
+            and <a href="../Views/Home/Emtech.cshtml">Emerging Technology</a> for the better understanding.
+        </p>
+    </section>
+</article>
+<article class="row" style="background-color:#D0ECE7 ">
+    <!--The fist section is displaying the images as well as  paragraph-->
+    <section class="col-xl-6 col-mdcol-6 col-sm-12" id="contact-padding">
+        <p style="font-size:20px">
+            <img src="/images/Conab/contact-image.jpg" style="height:100%" /><br /><br />
+
+            Loking for more informartions and providing more feedbacks regarding <br />
+            Industry 4.0? submits your thoughs and your contact deteils, our team <br />
+            members will contact you as soon as possible.
+        </p>
+    </section>
+    <!--The second section is used to to get the contact form for UI-->
+    <section class="col-xl-6 col-md-6 col-sm-12" id="contact-padding">
+        <form class="form">
+            <div style="padding-left:10%;resize:vertical" class="text-black">
+                <h2 id="feedback-h1">We would love to hear from you</h2>
+                <!--First name-->
+                <div class="form-group">
+                    <label value="FirstName"><strong>First Name:</strong></label> <br />
+                    <input id="FirstName" placeholder="Enter Your First Name" size="50" />
+                </div>
+                <!--Last Name-->
+                <div class="form-group">
+                    <label value="LastName"><strong>Last Name:</strong></label> <br />
+                    <input id="LastName" placeholder="Enter Your Last Name" size="50" />
+                </div>
+                <!--Email Address-->
+                <div class="form-group">
+                    <label value="Email"><strong>Email Addess:</strong></label> <br />
+                    <input id="Email" placeholder="Enter Your Email Address" size="50" />
+                </div>
+                <!--Phone Number-->
+                <div>
+                    <label value="PhoneNumber"><strong>Phone Number:</strong></label><br />
+                    <input id="PhoneNumber" placeholder="Enter Your Number" size="50" /><br />
+                </div>
+                <!--Select Your country-->
+                <div class="form-group"><br />
+                    <label><strong>Select Your Country:</strong></label><br />
+                    <select>
+                        <option>Australia</option>
+                        <option>Canada</option>
+                        <option>United States</option>
+                        <option>England</option>
+                        <option>India</option>
+                        <option>Singapore</option>
+                        <option>Indonesia</option>
+                        <option>Brazil</option>
+                    </select>
+                </div>
+                <!--Messages-->
+                <div class="form-group">
+                    <label value="Messages"><strong>Let us know your thoughts:</strong></label> <br />
+                    <textarea id="Messages" cols="50" rows="7" placeholder="Enter Your messages"></textarea>
+                </div>
+
+                <a class="btn btn-success">Submit</a> <br /><br />
+            </div>
+        </form>
+    </section>
+</article>

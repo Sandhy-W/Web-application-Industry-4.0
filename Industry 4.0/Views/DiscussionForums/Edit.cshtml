@@ -1,0 +1,110 @@
+﻿@model Industry_4._0.Models.DiscussionForum
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div style="padding-left:15px;">
+    <h1>Edit</h1>
+
+    <h4>DiscussionForum</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <!--Display the date of the post-->
+                <div class="form-group">
+                    <label asp-for="PostDate" class="control-label">Date</label>
+                    <input asp-for="PostDate" class="form-control" readonly />
+                    <span asp-validation-for="PostDate" class="text-danger"></span>
+                </div>
+
+                <!--Display the name of the username-->
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label">Username</label>
+                    <input asp-for="UserName" class="form-control" readonly value="@User.Identity.Name" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+                <!--The Heading of the topic-->
+                <div class="form-group">
+                    <label asp-for="Heading" class="control-label">Heading</label>
+                    <input asp-for="Heading" class="form-control" placeholder="Enter the topic for your feedback" />
+                    <span asp-validation-for="Heading" class="text-danger"></span>
+                </div>
+
+                <!--Star reating of the topic-->
+                <div class="form-group">
+                    <label asp-for="Like" class="control-label">StarRating</label>
+                    <input asp-for="Like" class="form-control" />
+                    <span asp-validation-for="Like" class="text-danger"></span>
+                </div>
+
+                <!--Display the content of the feedback-->
+                <div class="form-group">
+                    <label asp-for="MessageContent" class="control-label">Feedback</label>
+                    <textarea asp-for="MessageContent" class="form-control" rows="5"></textarea>
+                    <span asp-validation-for="MessageContent" class="text-danger"></span>
+                </div>
+
+                <!--Displaying the agree button-->
+                <div class="form-group">
+                    <label asp-for="Agree" class="control-label">Agree</label>
+                    <input asp-for="Agree" class="form-control" readonly />
+                    <span asp-validation-for="Agree" class="text-danger"></span>
+                </div>
+
+                <!--Displaying the disagree button-->
+                <div class="form-group">
+                    <label asp-for="Disagree" class="control-label">Disagree</label>
+                    <input asp-for="Disagree" class="form-control" readonly />
+                    <span asp-validation-for="Disagree" class="text-danger"></span>
+                </div>
+
+                <!--Display the organisation and companies as emerging techology-->
+                <div class="form-group">
+                    <label asp-for="TopicTitle" class="control-label">Emerging Technology Name</label>
+                    <select asp-for="TopicTitle" class="form-control" placeholder="Select Companies or Organisation Name">
+                        <option value="" selected disabled>Select a Company or a organisation</option>
+                        <option>IBM</option>
+                        <option>Amazon</option>
+                        <option>Google</option>
+                        <option>Microsoft</option>
+                        <option>CSIRO</option>
+                        <option>Department of science and technology</option>
+                    </select>
+                    <span asp-validation-for="TopicTitle" class="text-danger"></span>
+                </div>
+
+                <!--The button to save the edited post-->
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Comor">Back to Companies and Organisation pages</a>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+

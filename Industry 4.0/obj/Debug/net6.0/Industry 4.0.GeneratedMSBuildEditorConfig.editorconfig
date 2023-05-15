@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Industry_4._0
+build_property.RootNamespace = Industry_4._0
+build_property.ProjectDir = C:\Users\dauds\Desktop\VS-WEB DEV\Industry 4.0\Industry 4.0\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dauds\Desktop\VS-WEB DEV\Industry 4.0\Industry 4.0
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/DiscussionForums/Comor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xDb21vci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/DiscussionForums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/DiscussionForums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/DiscussionForums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/DiscussionForums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY3Vzc2lvbkZvcnVtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/Home/Conab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25hYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/Home/Emtech.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXRlY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dauds/Desktop/VS-WEB DEV/Industry 4.0/Industry 4.0/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cqwg1303r7

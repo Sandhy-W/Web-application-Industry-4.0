@@ -1,0 +1,250 @@
+﻿
+/*===============================
+    The ID below used to justtify
+    the paragraph and headline of the pae
+==================================*/
+#ind {
+    font-family: 'Anton', 'sans-serif';
+    text-shadow: 4px 4px 0px navy, 4px 4px 8px white;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+    padding-top: 200px;
+    margin: 0px;
+    top: 100%;
+    bottom: 50%;
+}
+
+#intro {
+    color: white;
+    text-align: center;
+    position: center;
+    font-weight: bold;
+}
+
+#text-wiki {
+    text-align: justify-all;
+    font-size: 16px;
+    color: white;
+    margin-right:auto;
+    margin-left:auto;
+    position:center;
+    
+}
+
+
+.comor-head {
+    font-family: 'Anton', 'sans-serif';
+    text-shadow: 4px 4px 0px navy, 4px 4px 8px white;
+}
+
+
+/*==================================================
+    Used for the fisrt bg image on index.cshtml
+ ==================================================*/
+#bg1-index{
+    background-image: url(/images/Homepage/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+    width:100%;
+}
+
+/*==================================================
+    Used for the second bg image on index.cshtml
+ ==================================================*/
+#bg2-index {
+    background-image: url(/images/Homepage/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+    width:100%;
+}
+/*==================================================
+   display the bg image for the company and organisation page
+ ==================================================*/
+
+#bg-Comor {
+    background-image: url(/images/Companies/office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 9px;
+    background-attachment: fixed;
+    lighting-color: darkslategrey;
+}   
+
+
+#bg-emtech {
+    background-image: url(../images/Emtech/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 9px;
+    background-attachment: fixed;
+}
+
+#bg-conab {
+    background-image : url(../images/Conab/cona-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 9px;
+    background-attachment: fixed;
+
+}
+
+
+/*=============================
+  Padding style for the 
+    6 companies in comor.cshtml
+================================*/
+#Comor-padding-style {
+    padding-top:9px; 
+    padding-right:9px; 
+    padding-left:9px
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-comor {
+    background-color: dodgerblue;
+    color: white;
+    height: 40px;
+    width: auto;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: thin;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn-comor-intro{
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width: auto;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: ridge;
+    border-block-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+/*==================================================
+   Figcaption option when the user hover the mouse 
+    on the images on the  index cshtml
+ ==================================================*/
+
+figure {
+    position: relative;
+    height:400px;
+    width: 300px;
+}
+
+    figure:hover > figcaption {
+        visibility:visible;
+    }
+
+figcaption {
+    background-color: rgba(31, 20, 20, 0.7);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    transition-duration: 0.25s;
+}
+
+
+/*==================================================
+   used to set the height and width of the image
+    of the six companies within the parallax scrollilng 
+    in on index.cshmtl
+ ==================================================*/
+
+img {
+    height: 100%;
+    width: 100%;
+
+}
+
+#img-comor {
+   width:100%;
+}
+/*==================================================
+   below id is used to set the margin of the images within 
+    the parallax on index.cshtml
+ ==================================================*/
+#figure-margin {
+    margin-bottom: unset;
+    padding-right: unset;
+    padding-left: unset;
+}
+
+/*============================
+    shape the border radius for 
+    button used on the corousel slides
+==============================*/
+#btn-corousel {
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*========================
+    Shapping the img border 
+    for the 24 companies
+==========================*/
+#Emtec-img-border-shape {
+    border-radius: 0px 40px 0px 40px;
+}
+
+.emtech-image-adjustment {
+    width:400px;
+    height:300px;
+}
+
+#feedback-h1 {
+    font-family:sans-serif;
+    color: darkblue;
+    font-weight:bolder;
+}
+
+
+.edit-comor {
+    padding-left: 2em;
+    margin-right: 20px;
+}
+
+#contact-padding {
+    padding-left:35px;
+    padding-top:35px;
+    padding-right:25px;
+    padding-bottom:25px;
+}
+
+
+#contact-bg-image {
+    background-image: url(../images/Conab/contact-image.jpg);
+    height:100%;
+}

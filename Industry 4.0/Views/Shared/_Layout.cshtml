@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Industry 4.0</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StyleSheet.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Industry_4._0.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-0 border-bottom-0">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">Industry 4.0</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="DiscussionForums" asp-action="Comor">Companies & Organisation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Emtech">Emerging Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Conab">Contact & About</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main body of homepage or index.cshtml-->
+    <div>
+        <main role="main" class="pb-0">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!--The footer for all pages-->
+    <footer class="bg-dark text-white">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <ul style="list-style-type:none;margin-bottom:unset">
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Comor">Company & Organisatios</a>
+                    </li>
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Emtech">Emerging Technolgies</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <ul style="list-style-type:none;margin-bottom:unset">
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Index">About Us</a>
+                    </li>
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Index">Contact Us</a>
+                    </li>
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Index">Privacy</a>
+                    </li>
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Index">Jobs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <ul style="list-style-type:none;margin-bottom:unset">
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Index">Copyright</a>
+                    </li>
+                    <li>
+                        <a class="text-white" asp-area="" asp-controller="Home" asp-action="Index">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <ul style="list-style-type:none">
+                    <li>
+                        <p>Follow us</p>
+                        <a href="https://www.google.com.au/"><i class="fa fa-google fa-2x" style="color:#F4B400"></i></a>
+                        <a href="https://www.youtube.com/" style="padding-left:1.5em"><i class="fa fa-youtube fa-2x" style="color:#FF0000"></i></a>
+                        <a href="https://twitter.com/search?q=Keeley&src=trend_click&f=live&vertical=trends" style="padding-left:1.5em"><i class="fa fa-twitter fa-2x" style="color:#1DA1F2"></i></a>
+                        <a href="https://www.facebook.com/" style="padding-left:1.5em"><i class="fa fa-facebook fa-2x" style="color:#4267B2"></i></a>
+                        <a href="https://www.linkedin.com/home?originalSubdomain=au" style="padding-left:1.5em"><i class="fa fa-linkedin fa-2x" style="color:#0072b1"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

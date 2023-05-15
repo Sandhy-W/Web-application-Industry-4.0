@@ -1,0 +1,165 @@
+﻿@model IEnumerable<Industry_4._0.Models.DiscussionForum>
+
+@{
+    ViewData["Title"] = "Companies & Organisation";
+}
+
+<article>
+    <!--First background image for the company and organisation-->
+    <section id="bg-Comor" style="padding-bottom:9px;">
+        <h1 id="ind">Company and Organisatios</h1>
+        <p id="intro" style="filter:blur(0)">
+            The industri 4.0 markets is forecast to reach $1 Trillion
+            by 2030, dominated by global technology giants including <br />
+            Alphabet-Google, HP, Samsung, IBM, NEC, Microsoft, and more.
+            According to the new 4-volume report by HSRC: Global industry<br />
+            4.0 markets & Technologies 2018 - 2023, the Industry 4.0 market
+            will reach $214 Billion by 2023. <br /><br />
+
+            <a class="btn btn-info btn-comor-intro" href="https://www.prnewswire.com/news-releases/global-tech-giants-to-lead-the-industry-40-revolution-300585640.html">
+                Read  More
+            </a>
+        </p>
+    </section>
+    <!--6 companies-->
+    <section class="row">
+        <!--IBM-->
+        <figure class="col-lg-6 col-md-6 col-sm-12" id="Comor-padding-style">
+            <img id="img-comor" src="~/images/Companies/ibm.jpg" />
+            <figcaption class="centered text-white bg-transparent" style="transition-duration:0s;">
+                <h1 class="comor-head">IBM</h1>
+                <a class="btn btn-info btn-comor" href="https://www.ibm.com/industries/manufacturing?S_PKG=ov60479&cm_mmc=Search_Google-_-Industrial_Industrial+-+Discrete+Manufacturing-_-WW_NA-_-industry+4.0_Exact_ov60479&cm_mmca1=000020DR&cm_mmca2=10005255&cm_mmca7=9071954&cm_mmca8=kwd-297031802574&cm_mmca9=9a244c0e-4e2f-4a0c-879b-abaf5cee4a64&cm_mmca10=280798821827&cm_mmca11=e&mkwid=9a244c0e-4e2f-4a0c-879b-abaf5cee4a64|1082|36760&cvosrc=ppc.google.industry%204.0&cvo_campaign=000020DR&cvo_crid=280798821827&Matchtype=e">
+                    Visit Site
+                </a>
+            </figcaption>
+        </figure>
+        <!--Amazon-->
+        <figure class="col-lg-6 col-md-6 col-sm-12" id="Comor-padding-style">
+            <img id="img-comor" src="~/images/Companies/amazon.jpg" />
+            <figcaption class="centered text-white bg-transparent" style="transition-duration:0s;">
+                <h1 class="comor-head">Amazon</h1>
+                <a class="btn btn-info btn-comor" href="https://aws.amazon.com/ai/">
+                    Visit Site
+                </a>
+            </figcaption>
+        </figure>
+        <!--Google-->
+        <figure class="col-lg-12 col-md-6 col-sm-12" id="Comor-padding-style">
+            <img id="img-comor" src="~/images/Companies/google.jpg" />
+            <figcaption class="centered text-white bg-transparent" style="transition-duration:0s;">
+                <h1 class="comor-head">Google</h1>
+                <a class="btn btn-info btn-comor" href="https://ai.google/">
+                    Visit Site
+                </a>
+            </figcaption>
+        </figure>
+        <!--Microsoft-->
+        <figure class="col-lg-6 col-md-6 col-sm-12" id="Comor-padding-style">
+            <img id="img-comor" src="~/images/Companies/microsoft.jpg" />
+            <figcaption class="centered text-white bg-transparent" style="transition-duration:0s;">
+                <h1 class="comor-head">Microsoft</h1>
+                <a class="btn btn-info btn-comor" href="https://www.microsoft.com/en-us/ai?activetab=pivot1%3aprimaryr6">
+                    Visit Site
+                </a>
+            </figcaption>
+        </figure>
+        <!--CSIRO-->
+        <figure class="col-lg-6 col-md-6 col-sm-12" id="Comor-padding-style" sytle="padding-top:unset">
+            <img id="img-comor" src="~/images/Companies/CSIRO.jpg" />
+            <figcaption class="centered text-white bg-transparent" style="transition-duration:0s;">
+                <h1 class="comor-head">CSIRO</h1>
+                <a class="btn btn-info btn-comor" href="https://www.csiro.au/">
+                    Visit Site
+                </a>
+            </figcaption>
+        </figure>
+        <!--Department-->
+        <figure class="col-lg-12 col-md-6 col-sm-12">
+            <img id="img-comor" src="~/images/Companies/department.jpg" />
+            <figcaption class="centered text-white bg-transparent" style="transition-duration:0s;">
+                <h1 class="comor-head">Department of Science and Technology</h1>
+                <a class="btn btn-info btn-comor" href="https://www.industry.gov.au/">
+                    Visit Site
+                </a>
+            </figcaption>
+        </figure>
+    </section>
+</article><br /><br />
+
+<hr />
+
+<div style="text-align:center">
+    <h1 id="feedback-h1">FeedBack</h1>
+    @{
+        if (User.Identity.IsAuthenticated)
+        {
+            <p>
+                <a class="btn btn-info" asp-action="Create">Submit your feedback</a>
+            </p>
+        }
+        else
+        {
+            <p style="font-weight:bold">Please<a class="btn btn-link" asp-area="Identity" asp-page="/Account/Login">Log in</a>or<a class="btn btn-link" asp-area="Identity" asp-page="/Account/Register">Create an account</a>to post  your feedback on this page</p>
+
+        }
+    } <br /><br />
+</div>
+
+<div style="margin-left:15px;">
+    @foreach (var item in Model)
+    {
+        <!--The Header of the post-->
+        <h1>@Html.DisplayFor(modelItem => item.Heading)</h1>
+        <!--Display the Topic the title-->
+        <h2>&#64;@Html.DisplayFor(modelItem => item.TopicTitle)</h2>
+        <!--Display the likes on every topic-->
+        <p>
+            @{
+
+                if (item.Like == 5 || item.Like < 5)
+                {
+                    for (int i = 0; i < item.Like; i++)
+                    {
+                        <span style="color:orange;">&#x2605</span>
+                    }
+                    for (int i = 0; i < 5 - item.Like; i++)
+                    {
+                        <span>&#x2606;</span>
+                    }
+                }
+                else
+                {
+                    if (item.Like > 5)
+                    {
+                        <span style="color:orange;">&#x2605</span>
+                        <span style="color:orange;">&#x2605</span>
+                        <span style="color:orange;">&#x2605</span>
+                        <span style="color:orange;">&#x2605</span>
+                        <span style="color:orange;">&#x2605</span>
+                    }
+                }
+             
+            }
+        </p>
+        <!--Display the content messege from the user-->
+        <p>@Html.DisplayFor(modelItem => item.MessageContent)</p>
+        <!--Display the buttons of the feedback feet-->
+        <p>Posted by <b>@Html.DisplayFor(modelItem => item.UserName)</b> on @Html.DisplayFor(modelItem => item.PostDate)</p>
+        <!--Button to show the post details-->
+        <a class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.Id">Details</a>
+        <!--Button for agree action toward the post-->
+        <a class="btn btn-success" asp-action="Agree" asp-route-id="@item.Id">Agree (@Html.DisplayFor(modelItem => item.Agree))</a>
+        <!--Button for disagree toward the action-->
+        <a class="btn btn-danger" asp-action="Disagree" asp-route-id="@item.Id">Disagree(@Html.DisplayFor(modelItem => item.Disagree))</a>
+        <!--Depent on the user authentication to access the button below-->
+        if (User.Identity.IsAuthenticated)
+        {
+            <!--Edit button-->
+            <a class="btn btn-outline-dark float-end edit-comor" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+            <!--Delete button-->
+            <a class="btn btn-outline-dark float-end" style="margin-right:3px" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+         
+        }
+        <hr />
+    }
+</div>

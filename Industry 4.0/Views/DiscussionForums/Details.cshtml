@@ -1,0 +1,82 @@
+﻿@model Industry_4._0.Models.DiscussionForum
+
+@{
+    ViewData["Title"] = "Details";
+}
+<div style="padding-left:15px;">
+    <h1>Details</h1>
+
+    <div>
+        <h4>DiscussionForum</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PostDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PostDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.UserName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.UserName)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Heading)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Heading)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Like)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Like)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.TopicTitle)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.TopicTitle)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.MessageContent)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.MessageContent)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Agree)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Agree)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Disagree)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Disagree)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a class="btn btn-dark" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+        <a class="btn btn-info" asp-action="Comor">Back to Companies and Organisations</a>
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
