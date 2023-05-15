@@ -16,12 +16,15 @@ Industry 4.0 uses parallax scrolling and bootstrap corousel slidings techniques.
 Dsiplaying the 6 websites that shows the responsive hover mouse which display more information once hovered. 
 as well as bootstrap sliding that provide more informations through sliders.
 
-![Screenshot 2023-05-15 235650](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/a6b53e40-aa56-4682-bce4-612c377e076d)
+![Screenshot 2023-05-15 235516](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/401887b7-79e2-4d2f-9a75-c6ecea07f3fd)
+
+
 
 * Companies and Organisations pages
 Introduces 6 companies and organisations which are IBM, Amazon, Google, Microsoft, CSIRO, and Department of Industry, Science, Energy and Science. This page also able to generate users feedback at the bottom of the page where the authorization will allow only the admin that able to edit or delete the posted feedback.
 
-![Screenshot 2023-05-16 000147](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/c12c0748-6e2f-4420-b7b0-7b1d71c1a0e7)
+![Screenshot 2023-05-16 000142](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/c67fcf2f-9cbe-40b6-aa89-91b929d1da60)
+
 
 * Emerging Technologies Page
 On this page, there would be 24  topics that split into 6 main topic, which will be displayed in accoirdion style
@@ -37,19 +40,22 @@ o	Blockchain: Blockchain, PC Magazine, Forbes Blockchains, CSIRO Blockchains
 * Contact and about page
 will displayed more information about industry 4.0 and anable the users to keep in touch regarding any queries of this industry. 
 
+![image](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/8f55cafd-2a7d-44c9-b9d5-a32cc481b64d)
 
-![image](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/c9b57963-da2f-44e8-8c79-31b216fcb0f1)
+
 
 
 * Log in page
 In login page determine the type of users whos sign in  into the web based on the used email address.
 
-![image](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/9d415b77-5975-43bc-9fcd-288f7c5151cc)
+![image](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/2937f87b-ca0a-4f43-b68c-20d47050a304)
+
 
 
 * Register page
 used to register new users.
 
 
-![image](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/89248dcc-a57e-4e7e-9027-734f62e758e4)
+![image](https://github.com/Sandhy-W/Web-application-Industry-4.0/assets/82015778/5fa89248-46d5-4465-8a3c-b80bef85001e)
+
 
