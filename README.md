@@ -39,7 +39,6 @@ o	Blockchain: Blockchain, PC Magazine, Forbes Blockchains, CSIRO Blockchains
 * Contact and about page
 will displayed more information about industry 4.0 and anable the users to keep in touch regarding any queries of this industry. 
 
-
 ![image](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/c9b57963-da2f-44e8-8c79-31b216fcb0f1)
 
 
@@ -56,5 +55,4 @@ used to register new users.
 
 
 
-![image](https://github.com/Sandhy-W/Web-aplilication-industry-4.0/assets/82015778/89248dcc-a57e-4e7e-9027-734f62e758e4)
 
